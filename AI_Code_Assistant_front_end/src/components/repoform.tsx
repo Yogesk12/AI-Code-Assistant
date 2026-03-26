@@ -60,7 +60,7 @@ export default function Ingest() {
       setTimeout(() => setStatus("Processing files..."), 1000);
       setTimeout(() => setStatus("Generating embeddings..."), 2000);
 
-      const res = await fetch("http://localhost:8000/ingest", {
+      const res = await fetch("https://ai-code-assistant-2iob.onrender.com/ingest", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

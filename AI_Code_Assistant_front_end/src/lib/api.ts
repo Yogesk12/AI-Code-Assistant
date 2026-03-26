@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://ai-code-assistant-2iob.onrender.com";
 
 export const askQuestion = async (question: string , repo_name : string) => {
   console.log("a---------",JSON.stringify({ question,repo_name }),)
